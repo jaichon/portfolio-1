@@ -160,7 +160,7 @@ nav {
 }
 
 .parallax {
-	background-image:url(jaichon.github.io/banner-img.jpg);
+	background-image:url(/banner-img.jpg);
 	height:100%;
 	background-attachment:fixed;
 	background-position: center center;
