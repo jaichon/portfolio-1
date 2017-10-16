@@ -24,10 +24,17 @@ body {
 	padding: 0 20px;
 }
 
-header {
-	background: #2D303B;
+.navigation {
+	background-color: rgba(38, 41, 48, 0.7);
 	padding: 30px 0px;
 	position: relative;
+}
+
+header {
+	/*opacity: 0.7;
+	background: #2D303B;
+	padding: 30px 0px;
+	position: relative;*/
 }
 
 header::after {
@@ -58,15 +65,10 @@ header .wrapper::after {
 	color:#ededed;
 }
 
-nav {
-	
-}
-
 .site-nav {
 	position: absolute;
 	top: 100%;
 	right: 0%;
-	background: #2D303B;
 	height: 0px;
 	overflow:hidden;
 	z-index:1;
@@ -151,7 +153,7 @@ nav {
 }
 
 .banner {
-	height:60vh;
+	height:70vh;
 	width: 100%;	
 }
 
@@ -172,9 +174,9 @@ nav {
 .banner-container {
 	text-align:center;
 	text-transform: none;
-	position:absolute;
+	position:relative;
 	width:100%;
-	top:50%;
+	top:35%;
 	-webkit-transform: translateY(-50%);
 	-moz-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -347,7 +349,6 @@ footer ul li:first-child {
 		height: auto;
 		position:relative;
 		float:right;
-		background:#2D303B;
 		border-top: none;
 	}
 	
@@ -366,6 +367,17 @@ footer ul li:first-child {
 	.site-nav a:focus {
 		background:transparent;
 		color:#ff6347;
+	}
+}
+
+@media screen and (max-width:769px) {
+	
+	.site-nav {
+		background: #262830;
+	}
+	
+	.navigation {
+		background-color: rgba(38, 41, 48, 1);
 	}
 }
 
